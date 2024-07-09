@@ -1,0 +1,1 @@
+sqlmap --cookie 'cookie' -u http:ip -columns --forms --tables
